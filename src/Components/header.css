@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.links {
+  font-size: 25px;
+  margin-top: 0px;
+  font-weight: bold;
+  transition: 0.00002s;
+}
+.mainLink:focus {
+  color: black;
+}
+.links:hover {
+  transform: scale(1.075);
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+.mainLink {
+  text-decoration: none;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+@import url("https://fonts.google.com/specimen/Mouse+Memoirs#type-tester:~:text=%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css2%3Ffamily%3DMouse%2BMemoirs%26display%3Dswap%22%20rel%3D%22stylesheet%22%3E");
+
+.Container {
+  margin-top: 20px;
+  display: flex;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Container:hover {
+  transform: scale(1.075);
+  transition: 2s;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  color: rgb(168, 2, 2);
+}
+
+.text1 {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  color: rgba(226, 3, 3, 0.774);
+}
+
+.cardButton {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: rgb(168, 2, 2);
+  border-radius: 4px;
+  border-width: 1px;
+  color: white;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+  .Container {
+    width: 100%;
+  }
+
+  .Container:hover {
+    transform: scale(1.015);
+    transition: 2s;
+  }
+}
