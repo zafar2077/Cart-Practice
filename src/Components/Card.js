@@ -32,8 +32,7 @@ export default function Card({ value, index }) {
         alert("item already added");
       }
     } else {
-      alert("Log in First");
-      Navigate("/signin");
+      Navigate("/cart");
     }
   };
 
